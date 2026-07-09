@@ -15,7 +15,6 @@ namespace Pc_part_manager
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
-            // Настройка на конзолата за по-красив вид
             Console.Title = "Personal Data Manager - Computer Parts";
 
             while (true)

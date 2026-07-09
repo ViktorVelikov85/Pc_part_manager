@@ -5,7 +5,6 @@ namespace Pc_part_manager.DAL
 {
     public static class DbConfig
     {
-        // Връзката към твоята MariaDB
         public static string ConnString = "server=localhost;database=PcPartsDb;port=3306;uid=root;pwd=;charset=utf8;"; 
 
         public static MySqlConnection GetConnection() => new MySqlConnection(ConnString);
